@@ -1,0 +1,23 @@
+/* FLEX TRAINING SECTION */
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+#red {
+  background-color: #f25f5c;
+}
+#yellow {
+  background-color: #ffe066;
+}
+#blue {
+  background-color: #247ba0;
+}

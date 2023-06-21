@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+/* .avatar {
+  width: 300px;
+  height: 200px;
+}
+
+#main-photo {
+  width: 3oopx;
+  height: 200px;
+} */
+
+h1 {
+  background-color: #6711f488;
+  bottom: 60px;
+}
+
+nav { 
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  all: unset;
+  /* border: 1px solid red; */
+  padding: 8px 16px;
+  /* padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px; */
+  border-radius: 6px;
+  background-color: red;
+  color: white;
+}
+
+
+.experience h1 {
+  font-size: 30px;
+}
+
+.skills {
+  font-size: 8px;
+}
+
+.skills h1 {
+  font-size: 80px;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover ;
+}
+
+.tulsa {
+  width: 150px;
+  height: 150px;
+}
+
+.malaya {
+  width: 150px;
+  height: 150px;
+}
+
+/* .outer {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+}
+
+.inner {
+  width: 80px;
+  height: 80px;
+  background-color: burlywood;
+  position: absolute;
+  top: -20px;
+} */
+
+section {
+  display: flex;
+  align-items:flex-start;
+  flex-direction: column;
+}
+
+.dimension {
+  background-color: burlywood;
+  width: 100px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 8px solid red;
+  margin: 20px;
+}
+
+.test {
+  background-color: burlywood;
+  width: 100px;
+  box-sizing: content-box;
+  padding: 20px;
+  border: 8px solid red;
+  margin: 20px;
+}
+
+button {
+  all: unset;
+  /* background-color: burlywood; */
+  box-sizing: border-box;
+  width: 200px;
+  padding: 20px;
+  /* border: 2px; */
+  /* margin: 20px; */
+
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.button-1 {
+  all: unset;
+  padding: 20px 16px 12px 8px;
+  /* padding-top: 20px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 8px; */
+  cursor: pointer;
+  font-family: "Azo Sans", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+  font-kerning: 200px;
+  background-color: turquoise;
+  margin-bottom: 30px;
+}
+
+.button-2 {
+  all: unset;
+  font-size: 20px;
+  position: relative;
+  left: 0px;
+  width: 200px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background-color: rgb(20, 197, 20);
+  text-align: center;
+  margin-bottom: 30px;
+  transition: background-color 0.3s, left 0.3s ease-in-out;
+  
+}
+
+button:hover {
+  left: 100px;
+  background-color: rgb(27, 114, 27);
+}
+
+input {
+  all: unset;
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 8px;
+  caret-color: red;
+}
+
+input:focus { 
+  background-color: rgb(122, 121, 121);
+}
+
+input:blank {
+  border-color: 3px solid red;
+}
+
+.container {
+  display: flex;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+#red {
+  background-color: #f25f5c;
+}
+#yellow {
+  background-color: #ffe066;
+}
+#blue {
+  background-color: #247ba0;
+}
